@@ -4,14 +4,30 @@
   "info": {
     "singularName": "order",
     "pluralName": "orders",
-    "displayName": "orders"
+    "displayName": "Order"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "product": {
+    "Items": {
+      "type": "json"
+    },
+    "Total": {
+      "type": "biginteger"
+    },
+    "statusy": {
+      "type": "enumeration",
+      "enum": [
+        "Enumeration: Pending, Processing, Completed, Cancelled"
+      ],
+      "default": "Enumeration: Pending, Processing, Completed, Cancelled"
+    },
+    "tablenumbere": {
+      "type": "biginteger"
+    },
+    "AdditionalDetails": {
       "type": "string"
     }
   }

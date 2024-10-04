@@ -61,4 +61,8 @@ module.exports = [
   
   'strapi::public',
   
+<<<<<<< HEAD
   ];
+=======
+  ];
+>>>>>>> 234012d573288bb8bfd7697c52ddfd13cb058890
